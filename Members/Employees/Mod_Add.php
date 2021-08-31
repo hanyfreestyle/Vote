@@ -1,3 +1,5 @@
+<div class="page_h1"><?php echo $PageTitle ?></div>
+<div style="clear: both!important;"></div>
 <?php
 if(!defined('WEB_ROOT')) {	exit;}
 ###########################################################>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

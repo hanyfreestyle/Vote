@@ -20,7 +20,7 @@ if($DetectMobile->isMobile() == '1') {
 
 
 
-
+$Back_Pc = "Pc_MainDiv_Back_New";
 
 
 $view = (isset($_GET['view']) && $_GET['view'] != '')?$_GET['view']:'';
@@ -46,6 +46,7 @@ switch($view) {
         $content =  UserPerMatianCont('Mod_Add.php',"1");
         $PageTitle = $Module_H1.$AdminLangFile['employees_edit'] ;
         $PageType = "Edit";
+
         break;
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -54,6 +55,17 @@ switch($view) {
         $content =  UserPerMatianCont('Mod_Delete.php',"1");
         $PageTitle = $Module_H1.$AdminLangFile['employees_delete'] ;
         break;
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#|||||||||||||||||||||||||||||||||||||| #    EmployeesDelete
+    case 'SendSMS':
+        $content =  UserPerMatianCont('../Files/SendSMS.php',"1");
+        $PageTitle = $Module_H1.$AdminLangFile['employees_delete'] ;
+        break;
+
+
+
+
 
 /*
 

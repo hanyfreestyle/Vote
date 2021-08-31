@@ -3,7 +3,10 @@ if(!defined('WEB_ROOT')) {	exit;}
 ###########################################################>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 #OPen_Page($PageTitle);
-
+?>
+<div class="page_h1"><?php echo $PageTitle ?></div>
+<div style="clear: both!important;"></div>
+<?php
 if($PageType == 'Add'){
     $row = array();
     $EditFilde = "";

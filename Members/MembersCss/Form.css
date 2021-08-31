@@ -62,12 +62,14 @@
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     margin-left: 5px;
-}
 
+
+}
 
 .tableListDivBut{
     width: 100%!important;
     text-align: center!important;
+
 }
 
 
@@ -93,6 +95,8 @@ table th,
 table td {
     padding: .625em;
     text-align: center;
+    padding-left: 0px!important;
+
 }
 
 table th {
@@ -160,45 +164,27 @@ table th {
 
 
 
-#paging div {
-    display:inline;
-    float:right;
-    width:auto;
-    margin:3px;
-    text-align:center;
-    margin-bottom: 10px;
-    margin-top: 10px;
+
+
+
+.btn-email {
+    color: #fff;
+    background-color: #655b73;
+    border-color: #655b73;
+}
+.btn-email:hover {
+    color: #fff;
+    background-color: #655b73;
+    border-color: #655b73;
 }
 
-.nav_links:link,.nav_links:visited,.nav_links:active {
-    color:#00f;
-    font-size:12px;
-    text-decoration:none;
-    font-family:tahoma;
-    display:block;
-    background-color:#000;
-    color:#FFF;
-    border:1px solid #CCC;
-    padding:4px 6px
+.btn-thumbs-up {
+    color: #fff;
+    background-color: #bda064;
+    border-color: #bda064;
 }
-
-.pager-current {
-    color:#000;
-    font-size:12px;
-    text-decoration:none;
-    font-family:tahoma;
-    display:block;
-    background-color:#fff;
-    background-color:#FFF;
-    border:1px solid #CCC;
-    padding:4px 6px
-}
-
-.nav_links:hover {
-    color:#000;
-    background-color:#FFF;
-    border:1px solid #CCC;
-    font-size:12px;
-    text-decoration:none;
-    font-family:tahoma
+.btn-thumbs-up:hover {
+    color: #fff;
+    background-color: #bda064;
+    border-color: #bda064;
 }

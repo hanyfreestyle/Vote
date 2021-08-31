@@ -19,9 +19,7 @@ if($DetectMobile->isMobile() == '1') {
 }
 
 
-
-
-
+$Back_Pc = "Pc_MainDiv_Back_New";
 
 $view = (isset($_GET['view']) && $_GET['view'] != '')?$_GET['view']:'';
 switch($view) {

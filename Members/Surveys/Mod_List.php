@@ -6,15 +6,16 @@ $cust_id = $Members_Row['id'] ;
 $THESQL = "select * from survey where cust_id = '$cust_id' order by postion ";
 $THELINK = "view=".$view;
 $ConfigP['datatabel'] = '0';
-$PERpage = "4";
+$PERpage = "3000";
 
 $already = $db->H_Total_Count($THESQL);
 if ($already > 0){
 ?>
+    <div class="page_h1"><?php echo $PageTitle ?></div>
     <table>
         <thead>
         <tr>
-            <th scope="col" width="20px">#</th>
+
             <th scope="col" class="text-right"><?php echo  $ALang['surveys_question'] ?></th>
             <th scope="col"></th>
         </tr>
@@ -32,7 +33,7 @@ if ($already > 0){
                 $x = $i+1;
 
                 echo '<tr>';
-                    echo '<td  class="text-right" data-label="#">'.$x.'</td>';
+
                     echo '<td  class="text-right" data-label="'.$ALang['surveys_question'].'">'.$Name[$i]['name'].'</td>';
                     echo '<td class="text-right" data-label="">';
                     echo '<div class="text-right tableListDivBut">';
@@ -56,7 +57,7 @@ if ($already > 0){
 <?php
 
    # echo '<div class="col-md-12 col-sm-12 col-xs-12">';
-    echo $db->pager;
+    #echo $db->pager;
    # echo '</div>';
 
 

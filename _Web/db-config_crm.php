@@ -13,9 +13,9 @@ $ThisHomePage ="";
 #################################################################################################################################
 @session_start();
 @$pfw_host = 'localhost';
-@$pfw_user = 'root';
-@$pfw_pw = '';
-@$pfw_db = 'veto_20210824';
+@$pfw_user = 'frhmyqpwdc';
+@$pfw_pw = 't9tmTSQeB6';
+@$pfw_db = 'frhmyqpwdc';
 
 
 $SiteName_SESSION = $pfw_db ;
@@ -96,7 +96,7 @@ $docRoot = $_SERVER['DOCUMENT_ROOT'];
 $webRoot  = str_replace(array($docRoot, CONFIG_LIBRARY_F.'/'.CONFIG_FILE_NAME), '', $thisFile);
 if(trim($webRoot)==''){
     $webRoot = '\\' ;
-}
+};
 $srvRoot  = str_replace(CONFIG_LIBRARY_F.'/'.CONFIG_FILE_NAME, '', $thisFile);
 define('INCLUDE_CHECK',true);
 define('WEB_ROOT', $webRoot);

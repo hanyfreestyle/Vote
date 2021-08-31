@@ -6,7 +6,6 @@ require_once './library/_Inc_Files.php';
 $AdminConfig = checkUser();
 
 
-
 $content = 'include/Inc_HomePage.php';
 $HomePage = 'Home';
 

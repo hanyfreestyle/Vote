@@ -23,7 +23,7 @@ if(!defined('WEB_ROOT')) {	exit;}
     require_once '_Inc_Files_FType.php'; 
  
     /** Class */
-    #require_once 'Class/Class_Autokeyword.php';
+
     require_once 'Class/Class_DB.php';
     require_once 'Class/Class_Upload.php';
     require_once 'Class/Class_FormValidator_2.php';
@@ -35,7 +35,7 @@ if(!defined('WEB_ROOT')) {	exit;}
     require_once 'Class/class.smtp.php';
     */
     
-    require_once 'Class/PHPMailer/PHPMailerAutoload.php';
+    #require_once 'Class/PHPMailer/PHPMailerAutoload.php';
 
     
 

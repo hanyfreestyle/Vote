@@ -1,6 +1,7 @@
 <?php
 require_once '../library/db-config_crm.php';
 require_once './library/Members_CheckLogin.php';
+
 $errorMessage = '&nbsp;';
 if(isset($_SESSION['MemberS_username'.$pfw_db])){
     header('Location: '.'index.php');
@@ -11,6 +12,7 @@ if (isset($_POST['txtUserName'])) {
         $errorMessage = $result;
     }
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="rtl" class="no-ie">

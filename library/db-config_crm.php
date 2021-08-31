@@ -25,7 +25,7 @@ $adminusergroup = 'adminusergroup'.$pfw_pw ;
 
 
 $MembersSName_SESSION = "Members".$pfw_db ;
-$MembersKey_SESSION = "Members".$pfw_db.$pfw_pw ;
+$MembersKey_SESSION = "Members".$pfw_db.$pfw_user ;
 
 $con = mysqli_connect($pfw_host,$pfw_user, $pfw_pw ,$pfw_db );
 mysqli_set_charset($con,"utf8");

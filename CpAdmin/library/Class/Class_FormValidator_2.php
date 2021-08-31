@@ -73,6 +73,10 @@ define("E_VAL_NEELMNT_CHECK_FAILED","Value of %s should not be same as that of %
 **/
 class FormValidator 
 {
+    public function __construct()
+    {
+        // Constructor's functionality here, if you have any.
+    }
 
 	public $validator_array;
     public $error_hash;

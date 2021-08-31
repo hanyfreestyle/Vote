@@ -58,7 +58,9 @@ $(document).ready(function(){
     $(".MobileForm_CenterDiv_with_photo").height(HomeBack_mobile_with_photoNow-100);
 
 
-
+    var Report_Pc_Center = $(".Report_Pc_Center").height();
+    var newHeight = (Pc_MainDiv - Report_Pc_Center) / 2;
+    $(".Report_Pc_Center").css("margin-top",newHeight);
    // alert(HomeBack_mobile_with_photo);
 
 });

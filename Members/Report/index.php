@@ -29,7 +29,19 @@ switch($view) {
     case 'EmployeesList':
         $content =  UserPerMatianCont('Mod_List.php',"1");
         $PageTitle = $Module_H1.$AdminLangFile['employees_list'] ;
+        $Pc_CenterDiv = " Report_Pc_Center";
         break;
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#|||||||||||||||||||||||||||||||||||||| #   EmployeesList
+    case 'EmployeesView':
+        $content =  UserPerMatianCont('EmployeesView.php',"1");
+        $PageTitle = $Module_H1.$AdminLangFile['employees_list'] ;
+        $Pc_CenterDiv = " Report_Pc_Center";
+        break;
+
+
+
 
     /*
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

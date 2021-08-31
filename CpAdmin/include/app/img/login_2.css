@@ -1,0 +1,59 @@
+body{
+
+}
+
+ .iq-over-black-80C {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background: rgba(9,179,239,.8);
+    background: -moz-linear-gradient(left,rgba(9,179,239,0.8) 0%,rgba(30,80,226,0.8) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(9,179,239,0.8)),color-stop(100%,rgba(30,80,226,0.8)));
+    background: -webkit-linear-gradient(left,rgba(9,179,239,0.8) 0%,rgba(30,80,226,0.8) 100%);
+    background: -o-linear-gradient(left,rgba(9,179,239,0.8) 0%,rgba(30,80,226,0.8) 100%);
+    background: -ms-linear-gradient(left,rgba(9,179,239,0.8) 0%,rgba(30,80,226,0.8) 100%);
+    background: linear-gradient(to right,rgba(9,179,239,0.8) 0%,rgba(30,80,226,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#09b3ef',endColorstr='#1e50e2',GradientType=1);
+}
+
+.login_logo img{
+max-width:320px;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 1900px)  {
+.page-wrapper{
+background-image: url('bg.jpg');
+background-repeat: no-repeat;
+background-position: center; 
+background-size: cover;
+}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px)  {
+
+.page-wrapper{
+height:auto!important;
+height:350px!important;
+min-height:750px!important;
+background-image: url('bg_mb.jpg');
+background-repeat: no-repeat;
+background-position: center; 
+background-size: cover;
+
+}
+
+.row-table{
+padding-top:180px;
+}
+
+
+}
+

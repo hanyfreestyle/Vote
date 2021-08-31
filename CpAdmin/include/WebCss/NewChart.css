@@ -1,0 +1,910 @@
+.Hradial_bar {
+
+position:relative;
+display:inline-block;
+font-size:16px;
+border-radius:50%;
+border:2px solid #fafafa;
+background-color:transparent;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+width:80px;
+height:80px;
+font-size:18px
+//margin-bottom:20px;
+}
+
+.Hradial_bar:after,.Hradial_bar > img {
+display:inline-block;
+position:absolute;
+top:0;
+left:0;
+border-radius:50%;
+text-align:center;
+font-weight:700;
+color:#a1a2a3
+}
+
+.Hradial_bar:after {
+content:attr(data-label);
+background-color:#fff;
+z-index:101
+}
+
+.Hradial_bar > img {
+z-index:102
+}
+
+.Hradial_bar:after,.Hradial_bar > img {
+width:56px;
+height:56px;
+margin-left:12px;
+margin-top:12px;
+line-height:56px
+}
+
+
+.Hradial_bar_lg {
+width:100px;
+height:100px;
+font-size:22px
+}
+
+.Hradial_bar_lg:after,.Hradial_bar_lg > img {
+width:70px;
+height:70px;
+margin-left:15px;
+margin-top:15px;
+line-height:70px
+}
+
+.Hradial_bar_sm {
+width:60px;
+height:60px;
+font-size:13px
+}
+
+.Hradial_bar_sm:after,.Hradial_bar_sm > img {
+width:45px;
+height:45px;
+margin-left:7.5px;
+margin-top:7.5px;
+line-height:45px
+}
+
+.Hradial_bar_xs {
+width:30px;
+height:30px;
+font-size:8px
+}
+
+.Hradial_bar_xs:after,.Hradial_bar_xs > img {
+width:21px;
+height:21px;
+margin-left:4.5px;
+margin-top:4.5px;
+line-height:21px
+}
+
+x:-o-prefocus,.Hradial_bar {
+background-clip:content-box
+}
+
+.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_55 {background-image: linear-gradient(288deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_60 {background-image: linear-gradient(306deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_65 {background-image: linear-gradient(324deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_70 {background-image: linear-gradient(342deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_75 {background-image: linear-gradient(360deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_80 {background-image: linear-gradient(378deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_85 {background-image: linear-gradient(396deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_90 {background-image: linear-gradient(414deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_95 {background-image: linear-gradient(432deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.Hradial_bar_100 {background-image: linear-gradient(450deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+
+
+
+
+.danger.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_55 {background-image: linear-gradient(288deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_60 {background-image: linear-gradient(306deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_65 {background-image: linear-gradient(324deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_70 {background-image: linear-gradient(342deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_75 {background-image: linear-gradient(360deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_80 {background-image: linear-gradient(378deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_85 {background-image: linear-gradient(396deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_90 {background-image: linear-gradient(414deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_95 {background-image: linear-gradient(432deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+.danger.Hradial_bar_100 {background-image: linear-gradient(450deg, #f35839 50%, transparent 50%, transparent), linear-gradient(270deg, #f35839 50%, #fafafa 50%, #fafafa);}
+
+.warning.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_55 {background-image: linear-gradient(288deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_60 {background-image: linear-gradient(306deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_65 {background-image: linear-gradient(324deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_70 {background-image: linear-gradient(342deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_75 {background-image: linear-gradient(360deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_80 {background-image: linear-gradient(378deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_85 {background-image: linear-gradient(396deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_90 {background-image: linear-gradient(414deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_95 {background-image: linear-gradient(432deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+.warning.Hradial_bar_100 {background-image: linear-gradient(450deg, #ff902b 50%, transparent 50%, transparent), linear-gradient(270deg, #ff902b 50%, #fafafa 50%, #fafafa);}
+
+
+.success.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_55 {background-image: linear-gradient(288deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_60 {background-image: linear-gradient(306deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_65 {background-image: linear-gradient(324deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_70 {background-image: linear-gradient(342deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_75 {background-image: linear-gradient(360deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_80 {background-image: linear-gradient(378deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_85 {background-image: linear-gradient(396deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_90 {background-image: linear-gradient(414deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_95 {background-image: linear-gradient(432deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+.success.Hradial_bar_100 {background-image: linear-gradient(450deg, #7bbf62 50%, transparent 50%, transparent), linear-gradient(270deg, #7bbf62 50%, #fafafa 50%, #fafafa);}
+
+
+
+.primary.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_55 {background-image: linear-gradient(288deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_60 {background-image: linear-gradient(306deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_65 {background-image: linear-gradient(324deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_70 {background-image: linear-gradient(342deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_75 {background-image: linear-gradient(360deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_80 {background-image: linear-gradient(378deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_85 {background-image: linear-gradient(396deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_90 {background-image: linear-gradient(414deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_95 {background-image: linear-gradient(432deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+.primary.Hradial_bar_100 {background-image: linear-gradient(450deg, #0094cb 50%, transparent 50%, transparent), linear-gradient(270deg, #0094cb 50%, #fafafa 50%, #fafafa);}
+
+
+
+.info.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_55 {background-image: linear-gradient(288deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_60 {background-image: linear-gradient(306deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_65 {background-image: linear-gradient(324deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_70 {background-image: linear-gradient(342deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_75 {background-image: linear-gradient(360deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_80 {background-image: linear-gradient(378deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_85 {background-image: linear-gradient(396deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_90 {background-image: linear-gradient(414deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_95 {background-image: linear-gradient(432deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+.info.Hradial_bar_100 {background-image: linear-gradient(450deg, #3babc8 50%, transparent 50%, transparent), linear-gradient(270deg, #3babc8 50%, #fafafa 50%, #fafafa);}
+
+
+.inverse.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_55 {background-image: linear-gradient(288deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_60 {background-image: linear-gradient(306deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_65 {background-image: linear-gradient(324deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_70 {background-image: linear-gradient(342deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_75 {background-image: linear-gradient(360deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_80 {background-image: linear-gradient(378deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_85 {background-image: linear-gradient(396deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_90 {background-image: linear-gradient(414deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_95 {background-image: linear-gradient(432deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+.inverse.Hradial_bar_100 {background-image: linear-gradient(450deg, #494d4d 50%, transparent 50%, transparent), linear-gradient(270deg, #494d4d 50%, #fafafa 50%, #fafafa);}
+
+
+.purple.Hradial_bar_1 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(93.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_2 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(97.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_3 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(100.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_4 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(104.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_5 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(108deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_6 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(111.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_7 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(115.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_8 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(118.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_9 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(122.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_10 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(126deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_11 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(129.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_12 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(133.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_13 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(136.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_14 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(140.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_15 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(144deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_16 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(147.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_17 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(151.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_18 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(154.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_19 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(158.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_20 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(162deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_21 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(165.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_22 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(169.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_23 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(172.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_24 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(176.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_25 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(180deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_26 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(183.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_27 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(187.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_28 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(190.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_29 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(194.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_30 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(198deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_31 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(201.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_32 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(205.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_33 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(208.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_34 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(212.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_35 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(216deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_36 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(219.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_37 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(223.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_38 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(226.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_39 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(230.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_40 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(234deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_41 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(237.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_42 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(241.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_43 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(244.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_44 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(248.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_45 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(252deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_46 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(255.6deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_47 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(259.2deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_48 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(262.8deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_49 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(266.4deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_50 {background-image: linear-gradient(90deg, #fafafa 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_51 {background-image: linear-gradient(273.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_52 {background-image: linear-gradient(277.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_53 {background-image: linear-gradient(280.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_54 {background-image: linear-gradient(284.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_55 {background-image: linear-gradient(288deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_56 {background-image: linear-gradient(291.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_57 {background-image: linear-gradient(295.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_58 {background-image: linear-gradient(298.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_59 {background-image: linear-gradient(302.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_60 {background-image: linear-gradient(306deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_61 {background-image: linear-gradient(309.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_62 {background-image: linear-gradient(313.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_63 {background-image: linear-gradient(316.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_64 {background-image: linear-gradient(320.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_65 {background-image: linear-gradient(324deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_66 {background-image: linear-gradient(327.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_67 {background-image: linear-gradient(331.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_68 {background-image: linear-gradient(334.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_69 {background-image: linear-gradient(338.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_70 {background-image: linear-gradient(342deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_71 {background-image: linear-gradient(345.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_72 {background-image: linear-gradient(349.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_73 {background-image: linear-gradient(352.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_74 {background-image: linear-gradient(356.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_75 {background-image: linear-gradient(360deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_76 {background-image: linear-gradient(363.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_77 {background-image: linear-gradient(367.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_78 {background-image: linear-gradient(370.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_79 {background-image: linear-gradient(374.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_80 {background-image: linear-gradient(378deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_81 {background-image: linear-gradient(381.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_82 {background-image: linear-gradient(385.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_83 {background-image: linear-gradient(388.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_84 {background-image: linear-gradient(392.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_85 {background-image: linear-gradient(396deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_86 {background-image: linear-gradient(399.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_87 {background-image: linear-gradient(403.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_88 {background-image: linear-gradient(406.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_89 {background-image: linear-gradient(410.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_90 {background-image: linear-gradient(414deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_91 {background-image: linear-gradient(417.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_92 {background-image: linear-gradient(421.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_93 {background-image: linear-gradient(424.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_94 {background-image: linear-gradient(428.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_95 {background-image: linear-gradient(432deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_96 {background-image: linear-gradient(435.6deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_97 {background-image: linear-gradient(439.2deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_98 {background-image: linear-gradient(442.8deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_99 {background-image: linear-gradient(446.4deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}
+.purple.Hradial_bar_100 {background-image: linear-gradient(450deg, #ac8dd1 50%, transparent 50%, transparent), linear-gradient(270deg, #ac8dd1 50%, #fafafa 50%, #fafafa);}

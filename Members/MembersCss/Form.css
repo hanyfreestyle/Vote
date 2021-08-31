@@ -1,0 +1,204 @@
+.ErrMass{color:red;font-size:13px;font-weight:700;text-align:right;direction:rtl; padding:0px; width:100%!important; float: right; padding-bottom: 10px!important;}
+
+.requiredText{color:red;font-size:15px}
+.parsley-errors-list > li{font-family:tahoma;font-size:13px;color:red;list-style:none;margin:0!important;padding:0!important;text-align:right}
+.parsley-errors-list{margin:0!important;padding:0!important;margin-top:5px!important;margin-bottom:5px!important}
+.form-control:focus{border-color:red!important;outline:0;-webkit-box-shadow:none;box-shadow:none}
+.form-control{display:block;width:100%;height:45px;font-size:14px;line-height:normal;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:2px;-webkit-box-shadow:none;box-shadow:none;transition:none;margin-top:0;color:#333!important}
+.TypeText{width:100%!important;display:block;width:100%;padding:.375rem .75rem;display:block;width:100%;height:45px;font-size:14px;line-height:normal;background-color:#fff;background-image:none;border:2px solid #ccc;border-radius:10px;-webkit-box-shadow:none;box-shadow:none;transition:none;margin-top:0;color:#333!important;direction:rtl}
+.chosen-select_2{width:100%!important;display:block;width:100%;padding:.375rem .75rem;display:block;width:100%;height:45px;font-size:14px;line-height:normal;background-color:#fff;background-image:none;border:2px solid #ccc;border-radius:10px;-webkit-box-shadow:none;box-shadow:none;transition:none;margin-top:0;color:#333!important;direction:rtl}
+.BorderC{border:2px solid #ccc;border-radius:10px;padding:20px}
+
+.login_but{background:#293b49;color:#fff}
+.login_but:hover{background:#293b49;color:#fff}
+
+.Arr_Mass{text-align: right!important;}
+.ArButForm_Dell_2{margin-left: 10px;}
+
+.btn-default_x{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(197,198,200,1) 100%);
+    border-radius:10px;
+    border:2px solid #ccc;
+    font-size:16px;
+    font-weight:700;
+    padding:7px 12px;
+    width: auto;
+    min-width: 120px;
+    color:#000;
+    cursor:pointer;
+}
+
+.NewFormStyleAdd{
+    margin-left: 10px;
+    background:#293b49;color:#fff
+}
+
+.control-label{
+    width: 100%;
+    text-align: right;
+
+}
+
+
+.btnTable {
+
+    font-weight:normal!important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .275rem .50rem;
+    font-size: .8rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 5px;
+}
+
+
+.tableListDivBut{
+    width: 100%!important;
+    text-align: center!important;
+}
+
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    direction: rtl;
+    float: right;
+}
+
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+}
+
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+        direction: rtl!important;
+        width: 100%;
+
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+        direction:rtl;
+    }
+
+    table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: right;
+        margin-left: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        min-height:20px;
+        min-width: 100px;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+
+
+
+#paging div {
+    display:inline;
+    float:right;
+    width:auto;
+    margin:3px;
+    text-align:center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nav_links:link,.nav_links:visited,.nav_links:active {
+    color:#00f;
+    font-size:12px;
+    text-decoration:none;
+    font-family:tahoma;
+    display:block;
+    background-color:#000;
+    color:#FFF;
+    border:1px solid #CCC;
+    padding:4px 6px
+}
+
+.pager-current {
+    color:#000;
+    font-size:12px;
+    text-decoration:none;
+    font-family:tahoma;
+    display:block;
+    background-color:#fff;
+    background-color:#FFF;
+    border:1px solid #CCC;
+    padding:4px 6px
+}
+
+.nav_links:hover {
+    color:#000;
+    background-color:#FFF;
+    border:1px solid #CCC;
+    font-size:12px;
+    text-decoration:none;
+    font-family:tahoma
+}

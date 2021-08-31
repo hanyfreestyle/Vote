@@ -1,0 +1,48 @@
+.prolist_style{padding:0px!important;}
+.prolist_style textarea_x{ height:400px;}
+.prolist_styleX{ background-color:#996633}
+#amenities_id{
+float:left;
+width:100%;
+min-height:100px;
+}
+
+
+.prolist_style textarea{ font-size:12px; font-family:Arial, Helvetica, sans-serif}
+
+.hanananan { float:left;
+width:500px;
+height:50px;
+font-size:15px
+}
+
+
+
+.moredes_style textarea{ font-size:15px; height:450px;}
+
+.MyMassView{
+float:right;
+line-height:30px;
+}
+.MyChartView{
+ 
+text-align:center!important;
+}
+
+
+
+
+.ClosedD{
+background-color: rgba(255, 0, 0, 0.2)!important;
+}
+
+.SamiClosed{
+background-color: rgba(255, 153, 0, 0.2)!important;
+}
+
+.ReOpenD{
+background-color: rgba(0, 255, 0, 0.2)!important;
+}
+
+
+.faIconss{font-size:40px!important; color:#eb330e;}

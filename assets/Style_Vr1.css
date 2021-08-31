@@ -1,0 +1,306 @@
+@font-face {
+font-family: 'Droid';
+src: url('fonts/Droid/DroidKufi-Regular.eot');
+src: url('fonts/Droid/DroidKufi-Regular.eot') format('embedded-opentype'),
+url('fonts/Droid/DroidKufi-Regular.woff') format('woff'),
+url('fonts/Droid/DroidKufi-Regular.ttf') format('truetype'),
+url('fonts/Droid/nefel_botan.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+    font-family: 'NefelBotan';
+    src: url('fonts/NefelBotan/nefel_botan.eot');
+    src: url('fonts/NefelBotan/nefel_botan.eot') format('embedded-opentype'),
+         url('fonts/NefelBotan/nefel_botan.woff') format('woff'),
+         url('fonts/NefelBotan/nefel_botan.ttf') format('truetype'),
+         url('fonts/NefelBotan/nefel_botan.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+select, select:-moz-focusring, select::-moz-focus-inner {color: transparent !important;text-shadow: 0 0 0 #000 !important;background-image: none !important;}
+	
+.MyCrd{clear:both!important;margin:0!important;padding:0!important;}
+.Font01{font-family:"Droid", Helvetica, sans-serif!important;}
+.Font02{font-family:"NefelBotan", Helvetica, sans-serif!important;}
+
+.Customer_Name{width:100%;padding-top:10px;padding-bottom:10px;font-size:24px;text-align:center;}
+.Customer_Logo{width:100%;text-align:center;}
+.Customer_Logo img{ max-width:310px; }
+.Customer_Mass{width:100%;padding-top:20px;padding-bottom:20px;font-size:17px;text-align:center;}
+ 
+ 
+ 
+.requiredText {
+color:red;
+font-size:15px
+}
+
+.parsley-errors-list > li {
+font-family:tahoma;
+font-size:13px;
+color:red;
+list-style:none;
+margin:0!important;
+padding:0!important;
+text-align:right;
+}
+
+.parsley-errors-list {
+margin:0!important;
+padding:0!important;
+margin-top:5px!important;
+margin-bottom:5px!important
+}
+
+.form-control:focus {
+border-color:red!important;
+outline:0;
+-webkit-box-shadow:none;
+box-shadow:none
+}
+
+.form-control {
+display:block;
+width:100%;
+height:45px;
+font-size:14px;
+line-height:normal;
+background-color:#fff;
+background-image:none;
+border:1px solid #ccc;
+border-radius:2px;
+-webkit-box-shadow:none;
+box-shadow:none;
+transition:none;
+margin-top:0;
+color:#333!important
+}
+
+.f_textarea {
+height:120px!important
+}
+
+
+textarea {
+height:120px!important;
+direction:rtl;
+}
+
+.btn-default_x {
+border-radius:0;
+border:1px solid #300743;
+font-size:16px;
+font-weight:700;
+padding:10px 20px;
+-webkit-transition:background-color .3s ease-in;
+-moz-transition:background-color .3s ease-in;
+-ms-transition:background-color .3s ease-in;
+-o-transition:background-color .3s ease-in;
+width:100%;
+background:#333;
+color:#FFF;
+cursor:pointer;
+font-family:"Droid", Helvetica, sans-serif!important;
+}
+
+
+ 
+ 
+ 
+ 
+.chosen-select_2{
+width:100%!important;font-family:"Droid", Helvetica, sans-serif!important;
+display: block;
+width: 100%;
+padding: .375rem .75rem;
+
+display: block;
+width: 100%;
+height: 45px;
+font-size: 14px;
+line-height: normal;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 5px;
+-webkit-box-shadow: none;
+box-shadow: none;
+transition: none;
+margin-top: 0;
+color: #333 !important;
+direction:rtl;
+
+}
+ 
+.TypeText{
+width:100%!important;font-family:"Droid", Helvetica, sans-serif!important;
+display: block;
+width: 100%;
+padding: .375rem .75rem;
+display: block;
+width: 100%;
+height: 45px;
+font-size: 14px;
+line-height: normal;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 5px;
+-webkit-box-shadow: none;
+box-shadow: none;
+transition: none;
+margin-top: 0;
+color: #333 !important;
+direction:rtl;
+} 
+ 
+ 
+.MobileErr {
+float:right;
+width:100%;
+font-family:tahoma;
+font-size:13px;
+color:red;
+list-style:none;
+margin:0!important;
+padding:0!important;
+margin-top:-10px!important;
+text-align:right;
+}
+
+.NameMass {
+float:right;
+width:100%;
+font-family:tahoma;
+font-size:13px;
+color:#999999;
+list-style:none;
+margin:0!important;
+padding:0!important;
+margin-top:-10px!important;
+text-align:right;
+}
+
+
+
+
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  
+}
+
+.alert_Thanks{
+text-align:center;
+background-color: #4CAF50;
+}
+
+.Thanks_Mass{
+padding:30px;
+}
+.err_code{
+text-align:right;
+}
+
+
+
+.MyHomeIcon_Con{
+text-align:center!important;
+
+}
+
+/*
+.MyHomeIcon{
+ 
+ 
+}
+
+@media screen and (max-width:480px) {
+.MyHomeIcon{width:90%;}
+}
+*/
+ 
+.MyHomeIcon{
+margin-top:20px;
+}
+
+
+.glyph a:link { text-decoration:none ; color:#333333 }
+.glyph a:visited { text-decoration:none ; color:#333333 }
+.glyph a:hover { text-decoration:none ; color:#FF3300}
+.glyph a:active { text-decoration:none ;color:#333333 }
+ 
+ 
+}
+#glyphs {
+
+padding:0px;
+text-align: center;
+}
+.glyph {
+
+text-align: center;
+vertical-align: top;
+background: #FFF;
+width:100%;
+margin-bottom:30px!important;
+
+}
+
+.glyph .glyph-icon {
+padding: 10px;
+display: block;
+font-family:"Flaticon";
+font-size: 64px;
+line-height: 1;
+}
+.glyph .glyph-icon:before {
+font-size: 64px;
+color: #222;
+margin-left: 0;
+}
+.class-name {
+/*
+font-size: 0.65em;
+background-color: #222;
+color: #fff;
+border-radius:4px;
+padding: 0.5em;
+color: #FFFF99;
+ */
+}
+
+
+@media screen and (max-width:480px) {
+ 
+}
+
+
+
+.ThisIsHomePage_x{
+background-color: #0099cc;
+background-image: url("dark-fish-skin.png");
+}
+
+.LogoView{background-color:#FFFFFF}
+.Customer_HomeLogo{width:100%;text-align:center; padding-top:15px; padding-bottom:25px;}
+.Customer_HomeLogo img{ max-width:310px; max-height:120px; }
+
+
+
+
+
+.DivPng{ margin-top:20px; text-align:center}
+.DivPng img{ max-width:145px;}
+
+
+.DivPng a:link { text-decoration:none ; color:#0099cc }
+.DivPng a:visited { text-decoration:none ; color:#0099cc }
+.DivPng a:hover { text-decoration:none ; color:#0099cc}
+.DivPng a:active { text-decoration:none ;color:#0099cc }

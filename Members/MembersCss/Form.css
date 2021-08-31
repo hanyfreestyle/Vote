@@ -188,3 +188,42 @@ table th {
     background-color: #bda064;
     border-color: #bda064;
 }
+
+
+
+
+
+.employee_container_mobile{
+    background: #293b49;
+    border-bottom: 7px solid #d1bf97;
+}
+
+.employee_container_mobile .emp_info{
+    color: #fff;
+    direction: rtl;
+    text-align: right;
+    font-size: .9em!important;
+    font-weight: bold;
+}
+.employee_container_mobile .emp_info span{
+    color: #fff;
+    direction: rtl;
+    text-align: right;
+    font-size: 1em!important;
+    font-weight: normal!important;
+}
+.employee_container_mobile span.MobileNum{
+    font-size: 1.3em!important;
+    letter-spacing: 1px;
+}
+
+
+.employee_container_mobile .employeePhotoDiv{
+
+    text-align: center;
+}
+
+.employee_container_mobile .employee_photo{
+    max-width: 115px;
+    border: 2px solid #fff;
+}

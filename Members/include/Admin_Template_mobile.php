@@ -20,6 +20,8 @@ if(!isset($Mobile_CenterDiv)){
 
 <?php
 require_once 'reqlogo.php';
+require_once 'req_Emp_Photo.php';
+
 
 echo '<div class="HomeBack_mobile">';
 echo '<div class="'.$Mobile_CenterDiv.'">';

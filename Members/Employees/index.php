@@ -61,6 +61,7 @@ switch($view) {
     case 'SendSMS':
         $content =  UserPerMatianCont('../Files/SendSMS.php',"1");
         $PageTitle = $Module_H1.$AdminLangFile['employees_delete'] ;
+        $Mobile_CenterDiv = " MobileForm_CenterDivs ";
         break;
 
 

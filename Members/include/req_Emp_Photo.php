@@ -1,14 +1,9 @@
+
 <?php
 $EmployeeRow = $db->H_CheckTheGet("id","id","employee","2");;
-
-$Emp_ID ="";
-/*
-$SQL_Line = "SELECT * FROM employee WHERE id = '$Emp_ID' " ;
-$EmployeeRow = $db->H_SelectOneRow($SQL_Line);
-*/
 ?>
 
-<div class="container-fluid employee_container" style="display: none">
+<div class="container-fluid employee_container_mobile">
     <div class="row">
         <div class="col-7 py-4">
             <div class="emp_info pr-2 mb-2"><?php echo $ALang['evl_form_emp_name'] ?>  : <span><?php echo $EmployeeRow['name'] ?></span></div>

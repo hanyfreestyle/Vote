@@ -60,7 +60,7 @@ switch($view) {
 #|||||||||||||||||||||||||||||||||||||| #    SendSMS
     case 'SendSMS':
         $content =  UserPerMatianCont('../Files/SendSMS.php',"1");
-        $PageTitle = $Module_H1.$AdminLangFile['employees_delete'] ;
+        $PageTitle = $Module_H1." ارسال رسالة نصيه" ;
         $Mobile_CenterDiv = " MobileForm_CenterDiv_with_photo ";
         $HomeBack_mobile = "HomeBack_mobile_with_photo";
         break;
@@ -68,7 +68,7 @@ switch($view) {
 #|||||||||||||||||||||||||||||||||||||| #    SendEmail
     case 'SendEmail':
         $content =  UserPerMatianCont('../Files/SendEmail.php',"1");
-        $PageTitle = $Module_H1.$AdminLangFile['employees_delete'] ;
+        $PageTitle = $Module_H1." ارسال بريد الكترونى ";
         $Mobile_CenterDiv = " MobileForm_CenterDiv_with_photo ";
         $HomeBack_mobile = "HomeBack_mobile_with_photo";
         break;

@@ -176,6 +176,9 @@ ul.a_list a{color:#FFF!important}
     overflow: auto;
 
 }
+
+
+
 .employee_container_mobile{
     background: #293b49;
     border-bottom: 7px solid #d1bf97;
@@ -220,3 +223,69 @@ ul.a_list a{color:#FFF!important}
 .mobile_sms_send_mass .sms_emp_name{
     font-weight: bold;
 }
+
+
+
+
+
+
+.employee_container_for_sms_pc{
+    background: #293b49;
+    width: 50%;
+    padding: 15px;
+    border-bottom: 7px solid #d1bf97;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    float: right;
+
+}
+
+.employee_container_for_sms_pc .emp_info{
+    color: #fff;
+    direction: rtl;
+    text-align: right;
+    font-size: 1.1em!important;
+    font-weight: bold;
+}
+.employee_container_for_sms_pc .emp_info span{
+    color: #fff;
+    direction: rtl;
+    text-align: right;
+    font-size: 1em!important;
+    font-weight: normal!important;
+}
+.employee_container_for_sms_pc span.MobileNum{
+    font-size: 1.3em!important;
+    letter-spacing: 1px;
+}
+
+
+.employee_container_for_sms_pc .employeePhotoDiv{
+
+    text-align: center;
+}
+
+.employee_container_for_sms_pc .employee_photo{
+    max-width: 150px;
+    border: 2px solid #fff;
+}
+
+.employee_container_for_sms_pc_form{
+
+
+    width: 50%!important;
+    padding-right: 25px;
+
+    float: right!important;
+
+}
+
+.pc_sms_send_mass{
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+

@@ -162,3 +162,61 @@ ul.a_list a{color:#FFF!important}
 
 
 
+.HomeBack_mobile_with_photo{float:right;width:100%;height:100%;background-image:url(img/home_back.jpg);background-repeat:no-repeat;background-position:center;background-size:cover}
+.MobileForm_CenterDiv_with_photo{
+    margin:auto;
+    padding:15px;
+    width:90%;
+    margin-top: 20px;
+    background-color:rgba(255,255,255,0.9);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    height: 250px;
+    overflow: auto;
+
+}
+.employee_container_mobile{
+    background: #293b49;
+    border-bottom: 7px solid #d1bf97;
+}
+
+.employee_container_mobile .emp_info{
+    color: #fff;
+    direction: rtl;
+    text-align: right;
+    font-size: .9em!important;
+    font-weight: bold;
+}
+.employee_container_mobile .emp_info span{
+    color: #fff;
+    direction: rtl;
+    text-align: right;
+    font-size: 1em!important;
+    font-weight: normal!important;
+}
+.employee_container_mobile span.MobileNum{
+    font-size: 1.3em!important;
+    letter-spacing: 1px;
+}
+
+
+.employee_container_mobile .employeePhotoDiv{
+
+    text-align: center;
+}
+
+.employee_container_mobile .employee_photo{
+    max-width: 100px;
+    border: 2px solid #fff;
+}
+
+.mobile_sms_send_mass{
+    direction: rtl;
+    text-align: right;
+    padding: 10px;
+}
+
+.mobile_sms_send_mass .sms_emp_name{
+    font-weight: bold;
+}

@@ -17,8 +17,8 @@ $(document).ready(function(){
     var ThisReqLogoDiv = $("#ThisReqLogoDiv").height();
     var HomeBack_mobile = $(window).height();
     var HomeBack_mobileNow = HomeBack_mobile-ThisReqLogoDiv;
-
     $(".HomeBack_mobile").height(HomeBack_mobileNow);
+
 
     $(".Pc_MainDiv_Back").height(Pc_MainDiv);
 
@@ -50,7 +50,15 @@ $(document).ready(function(){
 
     $(".MobileForm_CenterDiv").height(HomeBack_mobileNow-100);
 
+    var ThisReqLogoDiv = $("#ThisReqLogoDiv").height();
+    var HomeBack_mobile_with_photo = $(window).height();
+    var employee_container_mobile = $('.employee_container_mobile').height();
+    var HomeBack_mobile_with_photoNow = HomeBack_mobile_with_photo-(ThisReqLogoDiv+employee_container_mobile);
+    $(".HomeBack_mobile_with_photo").height(HomeBack_mobile_with_photoNow);
+    $(".MobileForm_CenterDiv_with_photo").height(HomeBack_mobile_with_photoNow-100);
 
 
+
+   // alert(HomeBack_mobile_with_photo);
 
 });

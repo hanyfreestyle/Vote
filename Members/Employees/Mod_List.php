@@ -32,7 +32,7 @@ if ($already > 0){
             $Name = $db->SelArr($THESQL ,true,$PERpage,PAGING_NEXT_PREV_NUM,$THELINK,5);
 
             for($i = 0; $i < count($Name); $i++) {
-                $id = $Name[$i]['id'];
+                $id = $Name[$i]['name_m'];
                 $x = $i+1;
 
                 if($Name[$i]['photo_t']){
@@ -54,7 +54,7 @@ if ($already > 0){
                     echo '<div class="text-right  tableListDivBut">';
                     echo NF_PrintBut_TD('22',$ALang['surveys_delete_survey'],"SendEmail&id=".$id,"btn-email","fa-envelope");
                     echo NF_PrintBut_TD('22',$ALang['mainform_edit'],"EmployeesEdit&id=".$id,"btn-success","fa-pencil");
-                    $ViewUrl = "EmployeesQR.php?id=".$Name[$i]['id'] ;
+                    $ViewUrl = "EmployeesQR.php?id=".$Name[$i]['name_m'] ;
                     echo NF_PrintBut_TD('Full_Url22',$ALang['cust_qr'],$ViewUrl,"btn-info","fa-qrcode","1");
 
                     echo NF_PrintBut_TD('22',$ALang['surveys_delete_survey'],"EmployeesDelete&id=".$id,"btn-danger","fa-window-close");

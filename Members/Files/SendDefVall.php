@@ -1,5 +1,5 @@
 <?php
-$EmployeeRow = $db->H_CheckTheGet("id","id","employee","2");
+$EmployeeRow = $db->H_CheckTheGet("id","name_m","employee","2");
 
 $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
 $DomainNameIs = urldecode($protocol . $_SERVER['HTTP_HOST']) ;

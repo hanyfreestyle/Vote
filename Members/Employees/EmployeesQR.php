@@ -4,7 +4,7 @@ require_once '../include/inc_reqfile.php';
 include('phpqrcode/qrlib.php'); 
 $Members_Row  =  Members_CheckUser();
 
-$row = $db->H_CheckTheGet("id","id","employee","2");
+$row = $db->H_CheckTheGet("id","name_m","employee","2");
 $CustomerIDD = $row['id'];
 
 

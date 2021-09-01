@@ -605,6 +605,25 @@ function SendJavaErrMass_22($Mass) {
 #################################################################################################################################
 ###################################################  Vall 
 #################################################################################################################################
+
+function Vall($Err,$DoFunction,$db,$state,$GroupPermation = "") {
+
+        if($DoFunction == "test") {
+            echo "Test Done";
+            exit;
+        }
+        if($state == "1") {
+            if($GroupPermation == '1') {
+                $DoFunction($db);
+            } else {
+                SendMassgeforuser();
+            }
+        } else {
+            $DoFunction($db);
+        }
+
+}
+/*
 function Vall($Err,$DoFunction,$db,$state,$GroupPermation = "") {
    $validator = new FormValidator();
    for($i = 0; $i < count($Err); $i++) {
@@ -634,7 +653,7 @@ function Vall($Err,$DoFunction,$db,$state,$GroupPermation = "") {
      }
    }
 }
-
+*/
 #################################################################################################################################
 ###################################################   VallCat
 #################################################################################################################################
@@ -890,11 +909,9 @@ function Clean_Mypost($value) {
     $value = XSS_Remove($value);
 	$value = trim($value);
 	$value = htmlspecialchars($value);
-	if (!get_magic_Quotes_gpc()) {
-	$value = addslashes(strip_tags($value));
-	} else {
-	$value = strip_tags($value);
-	}   
+
+    $value = strip_tags($value);
+
 
  
     $rep1 = array("'",'"','<','>','«','»',"?","¿",'%','‰');
@@ -902,9 +919,7 @@ function Clean_Mypost($value) {
 
     $value = str_replace($rep1,$rep2,$value);
 
-    if (get_magic_Quotes_gpc()) {
-	$value = stripslashes($value);
-	}
+
     
     $value = mysqli_real_escape_string($con,$value);
 	return $value;

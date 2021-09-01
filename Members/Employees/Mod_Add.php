@@ -13,7 +13,7 @@ if($PageType == 'Add'){
     $photo_t = "";
     $ButType = "1";
 }elseif($PageType == 'Edit'){
-    $row = $db->H_CheckTheGet("id","id","employee","2");
+    $row = $db->H_CheckTheGet("id","name_m","employee","2");
     $EditFilde = "Edit";
     $photo_t = $row['photo_t'];
     $ButType = "2";

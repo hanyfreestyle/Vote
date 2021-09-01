@@ -4,7 +4,7 @@
 if(!defined('WEB_ROOT')) {	exit;}
 ###########################################################>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 OPen_Page($PageTitle);
-$row = $db->H_CheckTheGet("id","id","employee","2");
+$row = $db->H_CheckTheGet("id","name_m","employee","2");
 $cat_id = $row['id'];
 
 #$count_survey_list = $db->H_Total_Count("select id from survey_list where cat_id = '$cat_id'");

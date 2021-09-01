@@ -136,17 +136,20 @@ class FormValidator
 			}
 		}
 
-		if(true == $bret && count($this->custom_validators) > 0)
-		{
-            foreach( $this->custom_validators as $custom_val)
-			{
-				if(false == $custom_val->DoValidate($form_variables,$this->error_hash))
-				{
-					$bret = false;
-				}
-			}
-		}
-		return $bret;
+		if(is_array($this->custom_validators)){
+            if(true == $bret && count($this->custom_validators) > 0)
+            {
+                foreach( $this->custom_validators as $custom_val)
+                {
+                    if(false == $custom_val->DoValidate($form_variables,$this->error_hash))
+                    {
+                        $bret = false;
+                    }
+                }
+            }
+            return $bret;
+        }
+
 	}
 
 

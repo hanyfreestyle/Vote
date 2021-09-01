@@ -594,17 +594,20 @@ function H_CheckTheGet($GetValue,$FiledName,$TabelName,$SelType="1",$Mass1 = "Er
    } else {
      $GOODGetValue = $_GET[$GetValue];
    }
- 
-   if(!is_numeric($_GET[$GetValue])) {
-     redirect_to2("index.php",$Mass1);
-     exit;
-   }else{
-   $GOODGetValue = intval($_GET[$GetValue]); 
-   }  
-   
-   $SQLLine = "SELECT '$FiledName' FROM $TabelName WHERE $FiledName = $GOODGetValue" ;
-   
+
+
+
+    if (!preg_match('/[^A-Za-z0-9]/', $_GET[$GetValue]))  {
+        $GOODGetValue = $_GET[$GetValue];
+    }else{
+        redirect_to2("index.php",$Mass1);
+        exit;
+    }
+
+   $SQLLine = "SELECT '$FiledName' FROM $TabelName WHERE $FiledName = '$GOODGetValue' " ;
+
    $already = mysqli_num_rows(mysqli_query($this->link, $SQLLine ));
+
    if($already <= 0) {
    redirect_to2("index.php",$Mass2); 
    } else {
@@ -614,7 +617,8 @@ function H_CheckTheGet($GetValue,$FiledName,$TabelName,$SelType="1",$Mass1 = "Er
    return $GOODGetValue;
     
    }elseif($SelType == '2'){
-   $SQLLine = "SELECT * FROM $TabelName WHERE $FiledName = $GOODGetValue" ;
+   $SQLLine = "SELECT * FROM $TabelName WHERE $FiledName = '$GOODGetValue' " ;
+
    $sendRow =  $this->H_SelectOneRow($SQLLine);
    return $sendRow ;
    }

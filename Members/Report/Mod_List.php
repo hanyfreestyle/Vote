@@ -10,22 +10,23 @@
         <div class="col-md-4 col-4 text-center"><span class="back_s back_s2">التقييم</span></div>
     </div>
 </div>
-<?php
-$sql= "select * from employee where id = '3' ";
-$row = $db->H_SelectOneRow($sql);
-?>
+
 
 <div class="report_list_cont mt-2">
     <div class="row">
 
         <?php
-        for ($i = 1; $i <=30; $i++) {
-        ?>
+            $Name = $db->SelArr("SELECT * FROM employee order by id");
+            for($i = 0; $i < count($Name); $i++) {
+
+
+
+            ?>
             <div class="col-md-8 col-8 mb-2  text-right">
                 <span class="back_s back_s_pr2 back_s3">
                     <span class="d-stop font-weight-bold">اسم الموظف : </span>
-                    <span > <a href="index.php?view=EmployeesView&id=3">هارى باتيل نانيكوا</a> </span>
-                    <span class="report_list_img" ><img src="<?php echo WEBSITE_IMAGE_DIR_V.$row['photo'] ?>" ></span>
+                    <span > <a href="index.php?view=EmployeesView&id=<?php echo  $Name[$i]['name_m'] ?>"><?php echo  $Name[$i]['name']   ?></a> </span>
+                    <span class="report_list_img" ><img src="<?php echo WEBSITE_IMAGE_DIR_V.$Name[$i]['photo'] ?>" ></span>
                 </span>
             </div>
             <div class="col-md-4 col-4 mb-2 text-center">

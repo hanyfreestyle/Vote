@@ -65,9 +65,6 @@ if($DetectMobile->isMobile() != '1') {
         ?>
     </div>
 </div>
-<?php
-
-?>
 
 <div class="report_list_cont mt-2">
     <div class="row">

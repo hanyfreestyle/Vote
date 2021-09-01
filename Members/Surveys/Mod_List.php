@@ -12,7 +12,7 @@ $already = $db->H_Total_Count($THESQL);
 if ($already > 0){
 ?>
     <div class="page_h1"><?php echo $PageTitle ?></div>
-    <table>
+    <table class="resTable">
         <thead>
         <tr>
 

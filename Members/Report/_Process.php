@@ -1,6 +1,9 @@
 <?php
 if(!defined('WEB_ROOT')) {	exit;}
 
+
+
+
 #UpdateField("survey_vote_answer",'answer_val','0');
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -116,6 +119,31 @@ function ChangeToArUnmber($value) {
     $value = str_replace($rep1,$rep2,$value);
     return $value;
 }
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#|||||||||||||||||||||||||||||||||||||| #       GetSel
+function GetSel($name,$val){
+    global $row;
+    $re = "";
+
+    if($row[$name] == $val ){
+        $re = 'selected';
+    }
+    return $re ;
+}
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#|||||||||||||||||||||||||||||||||||||| #       hetseeEditNew
+function hetseeEditNew($Name) {
+    global $row;
+    if(isset($_POST[$Name])) {
+        $v = $_POST[$Name];
+    } else {
+        $v = $row[$Name];
+    }
+    return $v;
+}
+
 
 ?>
 

@@ -38,9 +38,6 @@ echo  '</div>';
 Form_Close_New($buttype,"index.php?view=SurveysList");
 
 
-
-
-
 if(isset($_POST['B1'])){
     if($PageType == 'Add'){
         Vall($Err,"Add_Survey",$db,"1",USERPERMATION_ADD);
@@ -50,5 +47,4 @@ if(isset($_POST['B1'])){
 }
 
 
-#Close_Page();
 ?>

@@ -73,7 +73,7 @@
 }
 
 
-.resTable {
+table {
     border: 1px solid #ccc;
     border-collapse: collapse;
     margin: 0;
@@ -85,39 +85,39 @@
 }
 
 
-.resTable tr {
+table tr {
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     padding: .35em;
 }
 
-.resTable th,
-.resTable td {
+table th,
+table td {
     padding: .625em;
     text-align: center;
     padding-left: 0px!important;
 
 }
 
-.resTable th {
+table th {
     font-size: .85em;
     letter-spacing: .1em;
     text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {
-    .resTable {
+    table {
         border: 0;
         direction: rtl!important;
         width: 100%;
 
     }
 
-    .resTable caption {
+    table caption {
         font-size: 1.3em;
     }
 
-    .resTable thead {
+    table thead {
         border: none;
         clip: rect(0 0 0 0);
         height: 1px;
@@ -128,13 +128,13 @@
         width: 1px;
     }
 
-    .resTable tr {
+    table tr {
         border-bottom: 3px solid #ddd;
         display: block;
         margin-bottom: .625em;
     }
 
-    .resTable td {
+    table td {
         border-bottom: 1px solid #ddd;
         display: block;
         font-size: .8em;
@@ -142,7 +142,7 @@
         direction:rtl;
     }
 
-    .resTable td::before {
+    table td::before {
         /*
         * aria-label has no advantage, it won't be read inside a table
         content: attr(aria-label);
@@ -156,7 +156,7 @@
         min-width: 100px;
     }
 
-    .resTable td:last-child {
+    table td:last-child {
         border-bottom: 0;
     }
 }
@@ -194,15 +194,10 @@
 
 
 .TypeText_x{
-    width: 85%!important;
+    width: 90%!important;
 }
 
 .ui-datepicker-trigger{
     float: left;
-    max-width: 40px;
-
-}
-.ui-datepicker-trigger img{
-    max-width: 30px;
-
+    background: red;
 }

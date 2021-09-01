@@ -43,53 +43,15 @@ switch($view) {
         break;
 
 
-
-
-    /*
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#|||||||||||||||||||||||||||||||||||||| #   EmployeesAdd
-    case 'EmployeesAdd':
-        $content =  UserPerMatianCont('Mod_Add.php',"1");
-        $PageTitle = $Module_H1.$AdminLangFile['employees_add'] ;
+#|||||||||||||||||||||||||||||||||||||| #   SurveysAdd
+    case 'SelDateConfig':
         $PageType = "Add";
+        $content =  UserPerMatianCont('SelDateConfig.php',"1");
+        $PageTitle = $Module_H1." تحديد فترة عرض التقارير " ;
         break;
 
 
-
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#|||||||||||||||||||||||||||||||||||||| #    EmployeesEdit
-    case 'EmployeesEdit':
-        $content =  UserPerMatianCont('Mod_Add.php',"1");
-        $PageTitle = $Module_H1.$AdminLangFile['employees_edit'] ;
-        $PageType = "Edit";
-        break;
-
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#|||||||||||||||||||||||||||||||||||||| #    EmployeesDelete
-    case 'EmployeesDelete':
-        $content =  UserPerMatianCont('Mod_Delete.php',"1");
-        $PageTitle = $Module_H1.$AdminLangFile['employees_delete'] ;
-        break;
-
-/*
-
-
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#|||||||||||||||||||||||||||||||||||||| #    EmployeesSort
-    case 'EmployeesSort':
-        $content =  UserPerMatianCont('Mod_Sort.php',"1");
-        $PageTitle = $Module_H1.$AdminLangFile['employees_sort'] ;
-        break;
-
-
-        
-
-
-
-
-
-
-*/
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #|||||||||||||||||||||||||||||||||||||| #

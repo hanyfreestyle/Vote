@@ -1,34 +1,6 @@
 <?php
 
-/*
-AddFildeToTabel('survey','vote_1',"",'var','100','0');
-AddFildeToTabel('survey','vote_0',"",'var','100','0');
-
-
-
-AddFildeToTabel('survey_vote','date_add',"",'var','100','0');
-AddFildeToTabel('survey_vote','date_month',"",'var','100','0');
-AddFildeToTabel('survey_vote','date_year',"",'var','100','0');
-AddFildeToTabel('survey_vote','date_time',"",'var','100','0');
-
-AddFildeToTabel('survey_vote','vote_key',"",'var','100','0');
-AddFildeToTabel('survey_vote','cust_id',"",'int','0','0');
-AddFildeToTabel('survey_vote','emp_id',"",'int','0','0');
-
-AddFildeToTabel('survey_vote','customer_name',"",'var','100','0');
-AddFildeToTabel('survey_vote','customer_mobile',"",'var','100','0');
-AddFildeToTabel('survey_vote','count_vote',"",'int','0','0');
-AddFildeToTabel('survey_vote','v_code',"",'var','50','0');
-AddFildeToTabel('survey_vote','state',"",'int','0','0');
-
-
-AddFildeToTabel('survey_vote_answer','answer_id',"",'int','0','0');
-AddFildeToTabel('survey_vote_answer','answer_val',"",'int','0','0');
-*/
- 
-
-
-$Emp_ID = intval($WebMeta['id']);	
+$Emp_ID = intval($WebMeta['id']);
 $SQL_Line = "SELECT * FROM employee WHERE id = '$Emp_ID' " ;
 $EmployeeRow = $db->H_SelectOneRow($SQL_Line);
 

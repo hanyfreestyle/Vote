@@ -24,7 +24,10 @@ switch($view) {
         $PageTitle = "" ;
         break;
 
-
+    case 'ReportList':
+        $content =  UserPerMatianCont('ReportList.php',"1");
+        $PageTitle = "" ;
+        break;
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #|||||||||||||||||||||||||||||||||||||| #

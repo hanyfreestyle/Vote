@@ -15,7 +15,7 @@ $survey_vote_Count = $db->H_Total_Count($survey_vote_Sql_Line);
 
 
 if($DetectMobile->isMobile() != '1') {
-    /*
+
 ?>
 
 <div class="employee_container_for_report_pc" >
@@ -38,7 +38,7 @@ if($DetectMobile->isMobile() != '1') {
     </div>
 </div>
 <?php
-    */
+
 }
 
 ?>

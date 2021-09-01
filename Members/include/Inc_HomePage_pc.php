@@ -6,7 +6,7 @@
     <?php
     $PageUrl_surveys = $MembersPathHome."ListPage/index.php?view=SurveysList";
     $PageUrl_employees = $MembersPathHome."ListPage/index.php?view=EmployeesList";
-    $PageUrl_Report = $MembersPathHome."Report/index.php?view=EmployeesList";
+    $PageUrl_Report = $MembersPathHome."ListPage/index.php?view=ReportList";
     ?>
     <a href="<?php echo  $PageUrl_surveys ?>" class="text-center def_but homepage_but_pc"><?php echo $ALang['surveys_h1'] ?></a>
     <a href="<?php echo  $PageUrl_employees ?>" class="text-center def_but  homepage_but_pc"><?php echo $ALang['employees_h1'] ?></a>

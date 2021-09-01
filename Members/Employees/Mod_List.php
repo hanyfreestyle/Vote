@@ -20,7 +20,7 @@ if ($already > 0){
             <th scope="col" class="text-right"><?php echo  $ALang['employees_f_mobile'] ?></th>
             <th scope="col" class="text-right"><?php echo  $ALang['employees_f_jop'] ?></th>
             <th scope="col" width="120" class="text-right"><?php echo  $ALang['employees_photo'] ?></th>
-            <th scope="col" width="225" class="text-right"></th>
+            <th scope="col" class="text-right"></th>
         </tr>
         </thead>
         <tbody>

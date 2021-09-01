@@ -359,6 +359,22 @@ max-width: 40px;
         white-space: nowrap;
         overflow: hidden;
     }
+
+    .PrintNameEmp_list_report_mobile{
+        float: right;
+        width:75%!important;
+        line-height: 1.2rem;
+    }
+
+    .report_list_cont .col-8{
+        margin-left: 0px!important;
+        padding-left: 0px!important;
+    }
+
+    .PrintDate{
+        font-size: .8rem;
+        height: 38px;
+    }
 }
 
 
@@ -396,6 +412,9 @@ max-width: 40px;
     max-width: 150px;
     border: 2px solid #fff;
 }
+
+
+
 
 
 

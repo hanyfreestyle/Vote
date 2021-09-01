@@ -30,6 +30,8 @@ switch($view) {
         $content =  UserPerMatianCont('Mod_List.php',"1");
         $PageTitle = $Module_H1.$AdminLangFile['employees_list'] ;
         $Pc_CenterDiv = " Report_Pc_Center";
+        #$Mobile_CenterDiv = " MobileForm_CenterDiv_with_photo ";
+        #$Mobile_CenterDiv = " Mobile_Report_CenterDiv ";
         break;
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

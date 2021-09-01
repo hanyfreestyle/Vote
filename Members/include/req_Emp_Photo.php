@@ -2,7 +2,7 @@
 if(isset($view)){
     if($view == 'SendSMS' or $view == 'SendEmail' or  $view == 'EmployeesView' ){
 
-        $EmployeeRow = $db->H_CheckTheGet("id","id","employee","2");;
+        $EmployeeRow = $db->H_CheckTheGet("id","name_m","employee","2");;
         ?>
         <div class="container-fluid employee_container_mobile">
             <div class="row">

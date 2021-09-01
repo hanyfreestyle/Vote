@@ -33,5 +33,6 @@ $Module_H1 = $AdminLangFile['employees_h1']." | " ;  #********* Edit *********#
 $Short_Menu = '_Short_Menu.php';
 
 $GoogleCode = new GoogleAuthenticator();
+$All_City_Arr = $db->SelArr("SELECT * FROM sa_cities");
 
 ?>

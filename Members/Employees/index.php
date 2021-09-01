@@ -74,33 +74,11 @@ switch($view) {
         break;
 
 
-
-
-/*
-
-
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#|||||||||||||||||||||||||||||||||||||| #    EmployeesSort
-    case 'EmployeesSort':
-        $content =  UserPerMatianCont('Mod_Sort.php',"1");
-        $PageTitle = $Module_H1.$AdminLangFile['employees_sort'] ;
-        break;
-
-
-        
-
-
-
-
-
-
-*/
-
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #|||||||||||||||||||||||||||||||||||||| #
     default:
         $content =  'Mod_List.php';
-        $PageTitle = $Module_H1.$AdminLangFile['mainform_emptypage'];
+        $PageTitle = $Module_H1.$AdminLangFile['employees_list'] ;;
         $Short_Menu = '_Short_Menu.php';
 }
 

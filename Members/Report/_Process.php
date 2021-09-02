@@ -14,19 +14,22 @@ function GetEvaluationForSurvey($SurveyId,$emp_id,$startDate,$endDate){
     $already_vote_count = $db->H_Total_Count($already_vote_Sql);
     if($already_vote_count == '0'){
         $evaluation_Num = '';
+        $evaluation_save = '0';
     }else{
         $already_vote_Done_Sql = $already_vote_Sql . " and answer_val = '1' ";
         $already_vote_Done_count = $db->H_Total_Count($already_vote_Done_Sql);
         if($already_vote_Done_count <= '0'){
             $evaluation_Num = "0 %";
+            $evaluation_save = '0';
         }else{
             $evaluation_Num_sum = ($already_vote_Done_count/$already_vote_count)*100 ;
             $evaluation_Num_sum =  round($evaluation_Num_sum);
+            $evaluation_save = $evaluation_Num_sum;
             $evaluation_Num_sum =  ChangeToArUnmber($evaluation_Num_sum);
             $evaluation_Num = $evaluation_Num_sum . " %";
         }
     }
-    return  $evaluation_Num ;
+    return  array('evaluation_Num'=>$evaluation_Num ,'evaluation_save'=>$evaluation_save);
 }
 
 
@@ -72,22 +75,25 @@ function GetAllEmployeeReport($emp_id,$cust_id,$startDate,$endDate,$sendData=arr
     $already_vote_count = $db->H_Total_Count($already_vote_Sql);
     if($already_vote_count == '0'){
         $evaluation_Num = '<i class="fa fa-hourglass-2"></i>';
+        $evaluation_save = '0';
     }else{
         $already_vote_Done_Sql = $already_vote_Sql . " and answer_val = '1' ";
         $already_vote_Done_count = $db->H_Total_Count($already_vote_Done_Sql);
 
         if($already_vote_Done_count <= '0'){
             $evaluation_Num = "0 %";
+            $evaluation_save = '0';
         }else{
             $evaluation_Num_sum = ($already_vote_Done_count/$already_vote_count)*100 ;
             $evaluation_Num_sum =  round($evaluation_Num_sum);
+            $evaluation_save = $evaluation_Num_sum;
             $evaluation_Num_sum =  ChangeToArUnmber($evaluation_Num_sum);
-
             $evaluation_Num = $evaluation_Num_sum . " %";
+
         }
 
     }
-    return  $evaluation_Num ;
+        return  array('evaluation_Num'=>$evaluation_Num ,'evaluation_save'=>$evaluation_save);
 
 }
 

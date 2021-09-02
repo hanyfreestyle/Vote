@@ -51,7 +51,7 @@ $CustomerId = $Members_Row['id'];
                 </div>
                 <div class="col-md-4 col-4 mb-2 text-center">
                 <span class="back_s back_s3 evl_num">
-                    <?php echo $evaluation_Num ?>
+                    <?php echo $evaluation_Num['evaluation_Num'] ?>
                 </span>
                 </div>
                 <?php

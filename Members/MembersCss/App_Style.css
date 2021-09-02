@@ -419,7 +419,44 @@ max-width: 40px;
 
 
 
+.Evaluation_Des_Span{
+
+    float: right;
+    width: 100%;
+    padding: .5rem;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    float: right;
+    width: 100%;
+
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+
+}
+
+.report_list_img_2{
+    text-align: center;
+    padding: 0px!important;
+}
+.report_list_img_2 img{
+    max-width: 100px;
+    background: #fff;
+    padding: 1px;
+    border: 1px solid  rgba(0,0,0,.3);;
+
+}
 
 
+.TestBack{
+    background: #00FF00;
 
+}
+
+@media screen and (max-width: 600px) {
+    .report_list_img_2 img{
+        max-width: 70px!important;
+     }
+}
 

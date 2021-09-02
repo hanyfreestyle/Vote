@@ -1,13 +1,4 @@
 <?php
-/*
-$TAddDate = FULLDate_ForToday();
-$thisMonth = $TAddDate['Month'] ;
-$thisYear = $TAddDate['Year'] ;
-$MonthName = GetMonthName($thisMonth);
-$date_month = $thisMonth.'-'.$thisYear ;
-$PrintDate = $MonthName." ".ChangeToArUnmber($thisYear);
-
-*/
 $DateRang = GetReportDateRang($Members_Row['report_config']);
 $CustomerId = $Members_Row['id'];
 $startDate = $DateRang['start'];
@@ -68,7 +59,7 @@ if($DetectMobile->isMobile() != '1') {
                 <div class="col-md-6 col-12 mb-2 text-right">
                 <span class="back_s  back_s_pr2  back_s4">
                     <span class="crop_text survey_name"><?php echo  $Name[$i]['name'] ?></span>
-                    <span class="survey_name_num" > <?php echo $SurveyEvaluation_Num ?> </span>
+                    <span class="survey_name_num" > <?php echo $SurveyEvaluation_Num['evaluation_Num'] ?> </span>
                 </span>
                 </div>
                 <?php

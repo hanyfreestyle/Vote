@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a02dfe-2d12-4516-92f0-d7c4a3de14b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_TestDemo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CpAdmin/library/Form/FormTools.php" beforeDir="false" afterPath="$PROJECT_DIR$/CpAdmin/library/Form/FormTools.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CpAdmin/library/Tools/Php_Datetime.php" beforeDir="false" afterPath="$PROJECT_DIR$/CpAdmin/library/Tools/Php_Datetime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CpAdmin/library/Tools/_Site_Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/CpAdmin/library/Tools/_Site_Functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CpAdmin/library/_Inc_Files_Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/CpAdmin/library/_Inc_Files_Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evaluation_View.php" beforeDir="false" afterPath="$PROJECT_DIR$/Evaluation_View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/Employees/Mod_List.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Employees/Mod_List.php" afterDir="false" />
+    <list default="true" id="44a02dfe-2d12-4516-92f0-d7c4a3de14b1" name="Changes" comment="this">
+      <change afterPath="$PROJECT_DIR$/Members/Report/Evaluation_List.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Members/Report/_Process_Report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Members/ListPage/ReportList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/ListPage/ReportList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Members/MembersCss/App_Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Members/MembersCss/App_Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Members/Report/EmployeesView.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/EmployeesView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Members/Report/Mod_List.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/Mod_List.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/Report/SelDateConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/SelDateConfig.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Members/Report/_Process.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/_Process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Members/Report/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +48,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Members/Report" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2021\xampp7.4.15\htdocs\vote\Vr_01\Members\Report" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,8 +70,23 @@
       <updated>1630561127902</updated>
       <workItem from="1630561131024" duration="415000" />
       <workItem from="1630561576965" duration="678000" />
-      <workItem from="1630562285991" duration="17276000" />
+      <workItem from="1630562285991" duration="25208000" />
     </task>
+    <task id="LOCAL-00001" summary="this">
+      <created>1630581774581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630581774581</updated>
+    </task>
+    <task id="LOCAL-00002" summary="this">
+      <created>1630581821798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630581821798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="this" />
+    <option name="LAST_COMMIT_MESSAGE" value="this" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

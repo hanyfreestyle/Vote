@@ -2,6 +2,7 @@
 require_once '../include/inc_reqfile.php';
 require_once '_index_config.php';
 require_once '_Process.php';
+require_once '_Process_Report.php';
 
 
 $Members_Row  =  Members_CheckUser();
@@ -33,6 +34,17 @@ switch($view) {
         #$Mobile_CenterDiv = " MobileForm_CenterDiv_with_photo ";
         #$Mobile_CenterDiv = " Mobile_Report_CenterDiv ";
         break;
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#|||||||||||||||||||||||||||||||||||||| #   EvaluationList
+    case 'EvaluationList':
+        $content =  UserPerMatianCont('Evaluation_List.php',"1");
+        $PageTitle = $Module_H1." تقييم الموظفين خلال فترة" ;
+        $Pc_CenterDiv = " Report_Pc_Center";
+        #$Mobile_CenterDiv = " MobileForm_CenterDiv_with_photo ";
+        #$Mobile_CenterDiv = " Mobile_Report_CenterDiv ";
+        break;
+
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #|||||||||||||||||||||||||||||||||||||| #   EmployeesList

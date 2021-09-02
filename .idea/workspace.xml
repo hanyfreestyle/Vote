@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a02dfe-2d12-4516-92f0-d7c4a3de14b1" name="Changes" comment="this">
-      <change afterPath="$PROJECT_DIR$/Members/Report/Evaluation_List.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Members/Report/_Process_Report.php" afterDir="false" />
+    <list default="true" id="44a02dfe-2d12-4516-92f0-d7c4a3de14b1" name="Changes" comment="this 222">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/ListPage/ReportList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/ListPage/ReportList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Members/Employees/Mod_List.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Employees/Mod_List.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Members/MembersCss/App_Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Members/MembersCss/App_Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/Report/EmployeesView.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/EmployeesView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/Report/Mod_List.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/Mod_List.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/Report/_Process.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/_Process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Members/Report/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Members/Report/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +64,7 @@
       <updated>1630561127902</updated>
       <workItem from="1630561131024" duration="415000" />
       <workItem from="1630561576965" duration="678000" />
-      <workItem from="1630562285991" duration="25208000" />
+      <workItem from="1630562285991" duration="27673000" />
     </task>
     <task id="LOCAL-00001" summary="this">
       <created>1630581774581</created>
@@ -86,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630581821798</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="this 222">
+      <created>1630589857093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630589857093</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +107,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="this" />
-    <option name="LAST_COMMIT_MESSAGE" value="this" />
+    <MESSAGE value="this 222" />
+    <option name="LAST_COMMIT_MESSAGE" value="this 222" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

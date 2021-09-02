@@ -19,7 +19,7 @@ if ($already > 0){
             <th scope="col" class="text-right"><?php echo  $ALang['employees_f_name'] ?></th>
             <th scope="col" class="text-right"><?php echo  $ALang['employees_f_mobile'] ?></th>
             <th scope="col" class="text-right"><?php echo  $ALang['employees_f_jop'] ?></th>
-            <th scope="col" width="120" class="text-right"><?php echo  $ALang['employees_photo'] ?></th>
+            <th scope="col" width="120" class="text-right"></th>
             <th scope="col" class="text-right"></th>
         </tr>
         </thead>
@@ -48,10 +48,10 @@ if ($already > 0){
                     echo '<td  class="text-right" data-label="'.$ALang['employees_f_name'].'">'.$Name[$i]['name'].'</td>';
                     echo '<td  class="text-right" data-label="'.$ALang['employees_f_mobile'].'">'.$Name[$i]['mobile'].'</td>';
                     echo '<td  class="text-right" data-label="'.$ALang['employees_f_jop'].'">'.$Name[$i]['jop'].'</td>';
-                    echo '<td  class="text-right tdImg" data-label="'.$ALang['employees_photo'].'">'.$print_photo.'</td>';
-                    echo '<td class="text-right tdBut" data-label="">';
+                    echo '<td  class="text-right tdImg" data-label="">'.$print_photo.'</td>';
+                    echo '<td class="text-right tdBut NewTDBut" data-label="">';
 
-                    echo '<div class="text-right  tableListDivBut">';
+                    echo '<div class="text-right  tableListDivButX">';
                     echo NF_PrintBut_TD('22',$ALang['surveys_delete_survey'],"SendEmail&id=".$id,"btn-email","fa-envelope");
                     echo NF_PrintBut_TD('22',$ALang['mainform_edit'],"EmployeesEdit&id=".$id,"btn-success","fa-pencil");
                     $ViewUrl = "EmployeesQR.php?id=".$Name[$i]['name_m'] ;

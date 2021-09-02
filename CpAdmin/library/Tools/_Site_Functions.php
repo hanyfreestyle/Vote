@@ -35,6 +35,7 @@ function SaveVote(){
         ##
         'customer_name'=>Clean_Mypost($_POST['customer_name']),
         'customer_mobile'=>Clean_Mypost($_POST['customer_mobile']),
+        'city_id'=>Clean_Mypost($_POST['city_id']),
         'count_vote'=> $count_vote ,
         'v_code'=> $v_code['Code'] ,
         'state'=> "0",

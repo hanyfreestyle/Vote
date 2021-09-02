@@ -109,6 +109,16 @@ function print_r3($val) {
 
 }
 
+function print_rxx($val) {
+    echo '<div style="float: left; width:800px; direction: ltr ; padding-left: 30px;">';
+    echo '<pre>';
+    print_r($val);
+    echo '</pre>';
+    echo '</div>';
+    echo '<div style="clear: both!important;"></div>';
+
+}
+
 
 function print_r2($val) {
     echo '<pre>';

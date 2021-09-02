@@ -6,7 +6,7 @@ $EmployeeRow = $db->H_SelectOneRow($SQL_Line);
 
 $CustId = $EmployeeRow['cust_id'];
 $CustomerRow = $db->H_SelectOneRow("SELECT * FROM customer WHERE id = '$CustId' " );
- 
+
 $MobileErr = "";
 
 if(isset($_POST['SaveData'])){
@@ -22,25 +22,25 @@ if(isset($_POST['SaveData'])){
 
 
 if($CustomerRow['photo_t']){
-   $custImg = '<img src="'.WEBSITE_IMAGE_DIR_V.$CustomerRow['photo_t'].'" class="CustLogo_img">'; 
+    $custImg = '<img src="'.WEBSITE_IMAGE_DIR_V.$CustomerRow['photo_t'].'" class="CustLogo_img">';
 }else{
-    $custImg = '';  
+    $custImg = '';
 }
 
- 
+
 
 
 ?>
 
 <div class="container-fluid logo_container"><div class="row">
-<div class="col-7 py-3 LogoDiv"><img src="<?php echo $SitePhoto['photo_logo']?>" class="Logo_img"></div>
+        <div class="col-7 py-3 LogoDiv"><img src="<?php echo $SitePhoto['photo_logo']?>" class="Logo_img"></div>
 
-<div class="col-5 py-3 align-middle CustLogoDiv">
+        <div class="col-5 py-3 align-middle CustLogoDiv">
 
-    <?php echo $custImg ?>
+            <?php echo $custImg ?>
 
-</div>
-</div></div>
+        </div>
+    </div></div>
 
 <div class="container-fluid afterLogo"></div>
 
@@ -80,46 +80,56 @@ if($CustomerRow['photo_t']){
                 echo '<div class="col-md-12"><span class="MobileErr ">'.$MobileErr.'</span></div>';
 
 
-   
-            $SqlLineSurvey = "select * from survey where state = '1' and  cust_id = '$CustId' order by postion";
-            $already = $db->H_Total_Count($SqlLineSurvey);
-            if ($already > 0){
-                $Name = $db->SelArr($SqlLineSurvey);
+
+                echo '<div class="col-md-12 col-sm-12 col-xs-12 form-group DirRight">';
+                echo '<select name="city_id"  class="input-md chosen-select_2" required="">';
+                echo ' <option value="">المدينة</option>';
+                $Name = $db->SelArr("SELECT * FROM sa_cities ");
                 for($i = 0; $i < count($Name); $i++) {
-                    $ThisId = $Name[$i]['id'];
-
-                    if(isset($_POST['evaluation_vote'])){
-
-                        if($_POST['evaluation_vote'][$i] == '0'){
-                            $selThis_0 = " selected ";
-                        }else{
-                            $selThis_0 = " ";
-                        }
-                        if($_POST['evaluation_vote'][$i] == '1'){
-                            $selThis_1 = " selected ";
-                        }else{
-                            $selThis_1 = " ";
-                        }
-                    }else{
-                        $selThis = " selected ";
-                    }
-
-                    echo '<input type="hidden" value="'.$Name[$i]['id'].'" name="evaluation_id[]" />';
-                    echo '<div class="col-md-12 col-sm-12 col-xs-12 form-group DirRight">';
-                    echo '<select name="evaluation_vote[]"  class="input-md chosen-select_2" required="">';
-                    echo ' <option value="">'.$Name[$i]['name'].'</option>';
-                    echo ' <option value="1" '.$selThis_1.' >'.$Name[$i]['vote_1'].'</option>';
-                    echo ' <option value="0" '.$selThis_0.'>'.$Name[$i]['vote_0'].'</option>';
-                    echo '</select>';
-                    echo '</div>';
+                    echo ' <option value="'.$Name[$i]['id'].'">'.$Name[$i]['name'].'</option>';
                 }
-            }
+                echo '</select>';
+                echo '</div>';
 
+
+
+                $SqlLineSurvey = "select * from survey where state = '1' and  cust_id = '$CustId' order by postion";
+                $already = $db->H_Total_Count($SqlLineSurvey);
+                if ($already > 0){
+                    $Name = $db->SelArr($SqlLineSurvey);
+                    for($i = 0; $i < count($Name); $i++) {
+                        $ThisId = $Name[$i]['id'];
+
+                        if(isset($_POST['evaluation_vote'])){
+
+                            if($_POST['evaluation_vote'][$i] == '0'){
+                                $selThis_0 = " selected ";
+                            }else{
+                                $selThis_0 = " ";
+                            }
+                            if($_POST['evaluation_vote'][$i] == '1'){
+                                $selThis_1 = " selected ";
+                            }else{
+                                $selThis_1 = " ";
+                            }
+                        }else{
+                            $selThis = " selected ";
+                        }
+
+                        echo '<input type="hidden" value="'.$Name[$i]['id'].'" name="evaluation_id[]" />';
+                        echo '<div class="col-md-12 col-sm-12 col-xs-12 form-group DirRight">';
+                        echo '<select name="evaluation_vote[]"  class="input-md chosen-select_2" required="">';
+                        echo ' <option value="">'.$Name[$i]['name'].'</option>';
+                        echo ' <option value="1" '.$selThis_1.' >'.$Name[$i]['vote_1'].'</option>';
+                        echo ' <option value="0" '.$selThis_0.'>'.$Name[$i]['vote_0'].'</option>';
+                        echo '</select>';
+                        echo '</div>';
+                    }
+                }
 
                 echo '<div class="form-group col-md-12 text-center" >';
                 echo '<button class="btnx btn-default_x" name="SaveData" type="submit">'.$ALang['hform_add_fsend'].'</button>';
                 echo '</div>';
-
 
                 ?>
             </form>
@@ -127,6 +137,5 @@ if($CustomerRow['photo_t']){
     </div>
 </div>
 
- 
 
- 
+

@@ -20,7 +20,7 @@ if(!defined('WEB_ROOT')) {	exit;}
     
    
    
-    require_once 'Class/PHPMailer/PHPMailerAutoload.php';
+   # require_once 'Class/PHPMailer/PHPMailerAutoload.php';
    
     $db = new DB($pfw_host,$pfw_user,$pfw_pw,$pfw_db);
      

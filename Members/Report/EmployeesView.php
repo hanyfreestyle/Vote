@@ -1,16 +1,27 @@
 <?php
+/*
 $TAddDate = FULLDate_ForToday();
 $thisMonth = $TAddDate['Month'] ;
 $thisYear = $TAddDate['Year'] ;
 $MonthName = GetMonthName($thisMonth);
 $date_month = $thisMonth.'-'.$thisYear ;
 $PrintDate = $MonthName." ".ChangeToArUnmber($thisYear);
-$CustomerId = $Members_Row['id'];
-$row = $db->H_CheckTheGet("id","name_m","employee","2");
 
-$survey_vote_Sql_Line = "SELECT * FROM survey_vote where state = '1' and  
-                                               cust_id = '$CustomerId' and 
-                                               date_month = '$date_month' ";
+*/
+$DateRang = GetReportDateRang($Members_Row['report_config']);
+$CustomerId = $Members_Row['id'];
+$startDate = $DateRang['start'];
+$endDate = $DateRang['end'];
+$row = $db->H_CheckTheGet("id","name_m","employee","2");
+$emp_id =$row['id'];
+
+
+$survey_vote_Sql_Line = "SELECT * FROM survey_vote where state = '1'";
+$survey_vote_Sql_Line .= "and cust_id = '$CustomerId' ";
+$survey_vote_Sql_Line .= "and emp_id = '$emp_id' ";
+$survey_vote_Sql_Line .= " and  date_add  >= '$startDate' ";
+$survey_vote_Sql_Line .= " and  date_add  <= '$endDate' ";
+
 $survey_vote_Count = $db->H_Total_Count($survey_vote_Sql_Line);
 
 
@@ -46,12 +57,13 @@ if($DetectMobile->isMobile() != '1') {
 <div class="report_list_cont">
     <div class="row">
         <?php
+
         $survey_Sql_Line = "SELECT * FROM survey where cust_id = '$CustomerId' " ;
         $survey_Count = $db->H_Total_Count($survey_Sql_Line);
         if($survey_Count > 0 and $survey_vote_Count > 0){
             $Name = $db->SelArr($survey_Sql_Line);
             for($i = 0; $i < count($Name); $i++) {
-                    $SurveyEvaluation_Num = GetEvaluationForSurvey($Name[$i]['id'],$date_month);
+                    $SurveyEvaluation_Num = GetEvaluationForSurvey($Name[$i]['id'],$emp_id,$startDate,$endDate);
                 ?>
                 <div class="col-md-6 col-12 mb-2 text-right">
                 <span class="back_s  back_s_pr2  back_s4">
@@ -62,6 +74,7 @@ if($DetectMobile->isMobile() != '1') {
                 <?php
             }
         }
+
         ?>
     </div>
 </div>

@@ -311,7 +311,8 @@ function GetARDate($SetLabel = "",$timestamp) {
 #################################################################################################################################
 ###################################################   GetARDate2
 #################################################################################################################################
-function GetARDate2($SetLabel = "",$timestamp) {
+function GetARDate2($timestamp) {
+   $SetLabel = "";
    $nameday = date("l",$timestamp);
    $day = date("d",$timestamp);
    $namemonth = date("m",$timestamp);

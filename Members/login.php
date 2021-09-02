@@ -1,12 +1,11 @@
 <?php
 require_once '../library/db-config_crm.php';
-require_once './library/Members_CheckLogin.php';
-/*
-echo " WEB_ROOT : ". WEB_ROOT.'</br>';
-echo " SRV_ROOT : ". SRV_ROOT.'</br>';
 
-exit;
-*/
+require_once './library/Members_CheckLogin.php';
+
+
+
+
 
 $errorMessage = '&nbsp;';
 if(isset($_SESSION['MemberS_username'.$pfw_db])){

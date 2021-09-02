@@ -375,6 +375,10 @@ max-width: 40px;
         font-size: .8rem;
         height: 38px;
     }
+
+    .rangeInfo{
+        font-size: .8rem!important;
+    }
 }
 
 
